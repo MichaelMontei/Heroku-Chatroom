@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>BECODE Chatroom</h1>
+
+<div class="container">
+    <div class="target" id="target"></div>
+    <div class="userlist" id="userlist">Users Connected</div>
+</div>
+<label for="inputChat"></label>
+<input class="inputChat" id="inputChat" type="text" name="inputChat" placeholder="type your message">
+<button class="myButton" id="everyone">Send</button>
+<button class="myButton" id="me">To Me</button>
+
+
+
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin-top: 80px;
+    background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(22, 176, 207),rgb(103, 7, 215));
+}
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}
+
+.target{
+    font-family: 'Sawarabi Mincho', serif;
+    color: gainsboro;
+    width:600px;
+    height:600px;
+    border: 1px solid #000000;
+    border-radius: 21px;
+    font-size: 25px;
+    background-blend-mode: revert;
+}
+
+#inputChat{
+    width: 440px;
+    height: 130px;
+    position: absolute;
+    top: 590px;
+    left: 600px;
+    font-size: 25px;
+    border-radius:12px;
+    border:1px solid #9c9a9c;
+    background-color: #F9F9F9;
+}
+
+.container, h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+#userlist{
+    font-family: 'Bangers', cursive;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-left: 15px;
+    width:150px;
+    height:600px;
+    border: 1px solid #000000;
+    border-radius: 21px;
+}
+ #everyone{
+    position: absolute;
+    top: 590px;
+     left: 1050px;
+    box-shadow: 2px 2px 0px 0px #a1a1a1;
+    background: #fafafa linear-gradient(to bottom, #fafafa 5%, #c7c7bf 100%);
+    border-radius:12px;
+    border:1px solid #9c9a9c;
+    display:inline-block;
+    cursor:pointer;
+    color:#7d7d7d;
+    font-family: Courier New, serif;
+    font-size:17px;
+    font-weight:bold;
+    padding:19px 31px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background: #c7c7bf linear-gradient(to bottom, #c7c7bf 5%, #fafafa 100%);
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+#me{
+    position: absolute;
+    top: 660px;
+    left: 1050px;
+    box-shadow: 2px 2px 0px 0px #a1a1a1;
+    background: #fafafa linear-gradient(to bottom, #fafafa 5%, #c7c7bf 100%);
+    border-radius:12px;
+    border:1px solid #9c9a9c;
+    display:inline-block;
+    cursor:pointer;
+    color:#7d7d7d;
+    font-family: Courier New, serif;
+    font-size:17px;
+    font-weight:bold;
+    padding:19px 31px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background: #c7c7bf linear-gradient(to bottom, #c7c7bf 5%, #fafafa 100%);
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}

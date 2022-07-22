@@ -1,0 +1,29 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Make a chatroom with NOde.js / Express / Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelMontei/Chatroom.git"
+  },
+  "author": "Michael Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelMontei/Chatroom/issues"
+  },
+  "homepage": "https://github.com/MichaelMontei/Chatroom#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
